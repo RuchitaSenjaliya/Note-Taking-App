@@ -14,9 +14,13 @@ const NotesList = ({ notes, setNotes }: Props) => {
   const renderNotes = () => {
     return (
       <div className="">
-        {notes.map((note) => (
-          <Notes key={note.id} note={note} deleteHandler={deleteHandler} />
-        ))}
+        <div className="row">
+          {notes.map((note) => (
+            <div className="col-lg-4">
+              <Notes key={note.id} note={note} deleteHandler={deleteHandler} />
+            </div>
+          ))}
+        </div>
       </div>
     );
   };

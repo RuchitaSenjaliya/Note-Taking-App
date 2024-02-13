@@ -7,7 +7,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="justify-content-between ">
         <Container>
           <Navbar.Brand href="/">Notes</Navbar.Brand>
         </Container>

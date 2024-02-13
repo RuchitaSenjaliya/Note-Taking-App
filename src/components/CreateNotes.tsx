@@ -82,7 +82,7 @@ const CreateNotes = ({ notes, setNotes }: Props) => {
           <Form.Control
             type="color"
             id="colorInput"
-            defaultValue="#dfdfdf"
+            defaultValue="#ffd6d6"
             title="Choose your color"
             ref={colorRef}
           />
